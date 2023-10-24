@@ -24,7 +24,7 @@ slow = head;
 while (slow != fast)
 {
 slow = slow->next;
-fast
+fast = fast->next;
 }
 return (fast);
 }
